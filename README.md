@@ -1,15 +1,19 @@
-AITEC-GeoLocation
-=================
+# AITEC-GeoLocation
 
-# geofiend
-
-
+Geofiend is a short Demo for HTML5 GeoLocation capabilities. It uses Geolocation to get the Location of the user from their browser. 
+Then sends this location via WebSockets to a node.js server where the location of all users is being broadcasted.
 
 ## Usage
 
-
-
-## Developing
+   Install node.js
+   
+   git clone https://github.com/unSinn/AITEC-GeoLocation.git
+   
+   cd AITEC-GeoLocation
+   
+   npm install
+   
+   node app.js
 
 
 
